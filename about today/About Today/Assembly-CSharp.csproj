@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{EFE30F97-E209-9F63-00B8-DA55F5A538C4}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_5;UNITY_4_5;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Extensions\AfterEffect\Example\Scripts\AEAnimationExampleController.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Example\Scripts\AEMenu.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Example\Scripts\InstantiationController.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Example\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Example\Scripts\TestCharacter.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AEAnimationController.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AEConf.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AEDataParcer.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AEDataParcerWP8.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AEResourceManager.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AETween.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AEUtil.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AfterEffectAnimation.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Core\AfterrEffectCash.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Data\AEAnimationData.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Data\AEFootageType.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Data\AELayerBlendingType.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Data\AEPropertyType.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Data\AESettingsMode.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Data\AEShaders.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Enums\AELayerType.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Enums\AEWrapMode.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Models\AEComposition.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Models\AEFootage.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Models\AESprite.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Models\AESpriteFootage.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Models\AESpriteRenderer.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Templates\AEClipTemplate.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Templates\AECompositionTemplate.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Templates\AEFrameTemplate.cs" />
+     <Compile Include="Assets\Extensions\AfterEffect\Scripts\Templates\AELayerTemplate.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Core\Events\EventDispatcher.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Core\Events\EventDispatcherBase.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Data\BaseEvent.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Templates\CEvent.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\interfaces\IDispatcher.cs" />
+     <Compile Include="Assets\Extensions\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\Extensions\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\Extensions\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\Extensions\iTween\Sample\SampleInfo.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_BakeAnimation.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_Bakedmesh.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_EditSkinWeights.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_GlobalControl.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_HiddenBone.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_IKHandle.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_ParentControl.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_SkinnedVertices.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_SortingLayer.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Puppet2D_VertHandler.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\DelaunayTriangle.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\Sweep\AdvancingFrontNode.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\Sweep\DTSweep.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\Sweep\DTSweepConstraint.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\Sweep\DTSweepContext.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\Sweep\DTSweepPointComparator.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Delaunay\Sweep\PointOnEdgeException.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\ITriangulatable.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Orientation.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Polygon\Polygon.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Polygon\PolygonPoint.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Polygon\PolygonSet.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Puppet2D_Triangulator.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Puppet2D_Triangulator2.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Sets\ConstrainedPointSet.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Sets\PointSet.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\BoundingBox.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\ColorManager.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\ExtensionMethods.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\GDI\RenderControl.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\GDI\TMeshRenderer.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\GDI\VoronoiRenderer.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\IMeshRenderer.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\RenderData.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\RenderManager.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\MeshRenderer.Core\Zoom.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Algorithm\Dwyer.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Algorithm\ITriangulator.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Algorithm\Incremental.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Algorithm\SweepLine.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\BadTriQueue.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Behavior.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Carver.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Data\BadSubseg.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Data\BadTriangle.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Data\Osub.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Data\Otri.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Data\Segment.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Data\Triangle.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Data\Vertex.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Enums.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\BoundingBox.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\Edge.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\EdgeEnumerator.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\ISegment.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\ITriangle.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\InputGeometry.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\Point.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Geometry\RegionPointer.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\DataReader.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\DebugWriter.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\FileReader.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\FileWriter.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\IGeometryFormat.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\IMeshFormat.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\InputTriangle.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\IO\TriangleFormat.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Log\ILog.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Log\ILogItem.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Log\SimpleLog.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Log\SimpleLogItem.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Mesh.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\NewLocation.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Primitives.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Quality.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Sampler.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Smoothing\ISmoother.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Smoothing\SimpleSmoother.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\AdjacencyMatrix.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\BoundedVoronoi.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\CuthillMcKee.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\IVoronoi.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\QuadTree.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\QualityMeasure.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\RegionIterator.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\Statistic.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\Voronoi.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\Tools\VoronoiRegion.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Triangle.NET\Triangle\TriangleLocator.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\TriangulationConstraint.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\TriangulationContext.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\TriangulationMode.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\TriangulationPoint.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\TriangulationUtil.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\FixedArray3.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\FixedBitArray3.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PointGenerator.cs" />
+     <Compile Include="Assets\Puppet2D\Scripts\Triangulation\Util\PolygonGenerator.cs" />
+     <Compile Include="Assets\Scripts\OSCTestSender.cs" />
+     <Compile Include="Assets\Scripts\changeScene.cs" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\Jump_02.xml" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\TestAnimation.xml" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\FireSphere.xml" />
+     <None Include="Assets\Puppet2D\Shaders\unlitTransparentDouble.shader" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\PrecomposeTestScene.xml" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\Boxes.xml" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\girltalktest.xml" />
+     <None Include="Assets\Extensions\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\FogSphere.xml" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\Jump_01.xml" />
+     <None Include="Assets\Extensions\AfterEffect\Example\AnimData\BouncingSphere.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B1A43186-E880-F656-87BA-9A90F2FAB239}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
